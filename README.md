@@ -1,13 +1,11 @@
 # outer-joins-ministore
-══════════════════════════════════════════
+
 Auditoría de Inventario y Ventas — MiniStore
-══════════════════════════════════════════
 
 Este proyecto contiene la resolución técnica para la auditoría de integridad de datos de la tienda **MiniStore**, evaluando discrepancias entre el catálogo de productos y el registro de ventas.
 
-══════════════════════════════════════════
+
 Respuestas al Cuestionario de Auditoría
-══════════════════════════════════════════
 
  1. ¿Por qué usaste LEFT JOIN para la Consulta 1 y no INNER JOIN? ¿Qué se perdería si usaras INNER JOIN?
 Se utilizó `LEFT JOIN` con la tabla `productos` a la izquierda porque el objetivo de negocio era preservar la totalidad del catálogo de productos, sin importar si registraban o no transacciones asociadas. 
